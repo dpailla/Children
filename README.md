@@ -1,4 +1,4 @@
-#Proyecto Children International#
+## Proyecto Children International
 
 El presente es un proyecto comunitario que busca educar a los niños de la fundación Children International mediante juegos y aplicaciones interactivas.
 
@@ -10,5 +10,5 @@ El proyecto se ejecuta en una Web App de Azure gratuita
 
 La parte de administración se compila con Python2.7
 
-* Enlace de ejecución [aqui](https://web.whatsapp.com/)
+* Enlace de ejecución [aqui](https://bc-adm.azurewebsites.net)
 * Repositorio git [aqui](https://github.com/whacosta/Children)

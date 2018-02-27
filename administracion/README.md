@@ -1,6 +1,6 @@
 # BIGChildren #
 
-Plantilla en HTML para el administrador del sistema de Children International
+Plantilla en HTML para el administrador del sistema de Children International en Python 2.7
 
 ### El repositorio contienen los documentos html y js necesarios para el front-end del administrador del sistema.  ###
 
@@ -12,7 +12,7 @@ Plantilla en HTML para el administrador del sistema de Children International
 
 ### Modo de trabajo ###
 
-* Dentro del repositorio se encuentran sólo los plugins y javascripts necesarios para la página vacía y el maquetado inicial del administrador. Cada participante del grupo cuenta con la versión completa del template, de modo que podrá ir agregando plugins que vaya necesitando. 
+* Dentro del repositorio se encuentran sólo los plugins y javascripts necesarios para la página vacía y el maquetado inicial del administrador. Cada participante del grupo cuenta con la versión completa del template, de modo que podrá ir agregando plugins que vaya necesitando.
 
 
 ### Link completo del template###

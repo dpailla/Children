@@ -1,0 +1,1 @@
+web: gunicorn ChefGame.wsgi --log-file -

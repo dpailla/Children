@@ -26,7 +26,7 @@ SECRET_KEY = 'ujwxi3x9-^3-4!msokrqvb@6(*&ixy6w3uqcz#qcm^8!9ol*(b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['bc-juego.azurewebsites.net','localhost']
 
 
 # Application definition

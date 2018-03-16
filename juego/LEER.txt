@@ -1,9 +1,0 @@
-Una carpeta por cada parte del proyecto que involucre código:
-
-AppWeb
-AppMovil
-AppDesktop
-..
-
-En la carpeta "Avances" NO va código, todas los avances en cuanto a programación deben realizarlos haciendo "commits" usando GIT.
-

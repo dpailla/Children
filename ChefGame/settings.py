@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:63342',
+    'bc-children.azurewebsites.net',
 )
 CORS_ALLOW_METHODS = (
     'GET',

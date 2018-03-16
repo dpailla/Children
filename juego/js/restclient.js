@@ -1,7 +1,7 @@
 
 var rest = {
 	//baseUrl : 'https://cheftoun.herokuapp.com/',
-	baseUrl : 'http://127.0.0.1:8000/',
+	baseUrl : 'https://bc-juego.azurewebsites.net/',
 
 	makePost : function(url,jsonSend,callback){
 		// Envío y recibo de datos en JSON

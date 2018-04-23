@@ -23,7 +23,7 @@ if sys.version_info[0] == 3:
 
     def execfile(path, global_dict):
         """Execute a file"""
-        with open(path, 'r', encoding="utf8") as f:
+        with open(path, 'r', encoding="latin-1") as f:
             code = f.read()
         code = code.replace('\r\n', '\n') + '\n'
         exec(code, global_dict)
@@ -35,7 +35,7 @@ def log(txt):
     """Logs fatal errors to a log file if WSGI_LOG env var is defined"""
     log_file = os.environ.get('WSGI_LOG')
     if log_file:
-        f = open(log_file, 'a+',encoding="utf8")
+        f = open(log_file, 'a+',encoding="latin-1")
         try:
             f.write('%s: %s' % (datetime.datetime.now(), txt))
         finally:

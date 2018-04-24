@@ -28,8 +28,8 @@ if sys.version_info[0] == 3:
                 code = f.read()
             code = code.replace('\r\n', '\n') + '\n'
             exec(code, global_dict)
-        except BaseException as e:
-+            self.show_error(_('Error opening file') + ':\n' + str(e))
+        except:
++           log('Error opening file')
 else:
     def to_str(value):
         return value.encode(sys.getfilesystemencoding())

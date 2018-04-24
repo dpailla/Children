@@ -23,10 +23,13 @@ if sys.version_info[0] == 3:
 
     def execfile(path, global_dict):
         """Execute a file"""
-        with open(path, 'r') as f:
+        try:
+            with open(path, 'r') as f:
             code = f.read()
-        code = code.replace('\r\n', '\n') + '\n'
-        exec(code, global_dict)
+            code = code.replace('\r\n', '\n') + '\n'
+            exec(code, global_dict)
+        except BaseException as e:
++            self.show_error(_('Error opening file') + ':\n' + str(e))
 else:
     def to_str(value):
         return value.encode(sys.getfilesystemencoding())

@@ -25,7 +25,7 @@ if sys.version_info[0] == 3:
         """Execute a file"""
         try:
             with open(path, 'r') as f:
-            code = f.read()
+                code = f.read()
             code = code.replace('\r\n', '\n') + '\n'
             exec(code, global_dict)
         except BaseException as e:

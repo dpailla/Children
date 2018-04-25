@@ -1,11 +1,11 @@
 # ############################################################################
  #
- # Copyright (c) Microsoft Corporation.
+ # Copyright (c) Microsoft Corporation. 
  #
- # This source code is subject to terms and conditions of the Apache License, Version 2.0. A
- # copy of the license can be found in the License.html file at the root of this distribution. If
- # you cannot locate the Apache License, Version 2.0, please send an email to
- # vspython@microsoft.com. By using this source code in any fashion, you are agreeing to be bound
+ # This source code is subject to terms and conditions of the Apache License, Version 2.0. A 
+ # copy of the license can be found in the License.html file at the root of this distribution. If 
+ # you cannot locate the Apache License, Version 2.0, please send an email to 
+ # vspython@microsoft.com. By using this source code in any fashion, you are agreeing to be bound 
  # by the terms of the Apache License, Version 2.0.
  #
  # You must not remove this notice, or any other, from this software.
@@ -23,13 +23,10 @@ if sys.version_info[0] == 3:
 
     def execfile(path, global_dict):
         """Execute a file"""
-        try:
-            with open(path, 'r') as f:
-                code = f.read()
-            code = code.replace('\r\n', '\n') + '\n'
-            exec(code, global_dict)
-        except:
-+           log('Error opening file')
+        with open(path, 'r') as f:
+            code = f.read()
+        code = code.replace('\r\n', '\n') + '\n'
+        exec(code, global_dict)
 else:
     def to_str(value):
         return value.encode(sys.getfilesystemencoding())
@@ -52,7 +49,7 @@ if ptvsd_secret:
         try:
             ptvsd.enable_attach(ptvsd_secret)
             log('ptvsd enabled.\n')
-        except:
+        except: 
             log('ptvsd.enable_attach failed\n')
     except ImportError:
         log('error importing ptvsd.\n')

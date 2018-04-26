@@ -1,9 +1,0 @@
-DefaultContentNegotiation
-BaseContentNegotiation
-api_settings
-media_type_matches
-order_by_precedence
-exceptions
-HTTP_HEADER_ENCODING
-Http404
-_MediaType

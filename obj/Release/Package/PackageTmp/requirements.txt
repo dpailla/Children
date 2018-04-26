@@ -1,4 +1,0 @@
-django<2
-djangorestframework
-django-nested-admin
-django-grappelli

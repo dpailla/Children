@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for bigChildren project.
 
@@ -25,7 +26,7 @@ SECRET_KEY = 't@(c2y(#rz3p(xpl3kmlo%j5i2lw11x@xfmv)1!t5tp8&aqvf3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bc-adm.azurewebsites.net']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -42,7 +43,7 @@ INSTALLED_APPS = [
 
     'citas',
     'clubes',
-    'niños',
+    'ninos',
 
 
 

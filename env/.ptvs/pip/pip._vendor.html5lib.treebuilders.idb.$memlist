@@ -1,7 +1,0 @@
-default_etree
-getTreeBuilder
-treeBuilderCache
-dom
-etree
-etree_lxml
-base

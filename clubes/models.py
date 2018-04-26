@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 
 
@@ -10,8 +11,8 @@ class Programa(models.Model):
 
     codigo = models.CharField(max_length=10)
     nombre = models.CharField(max_length=100)
-    edad_minima = models.IntegerField(max_length=2,verbose_name='Edad inicial')
-    edad_maxima = models.IntegerField(max_length=2, verbose_name='Edad final')
+    edad_minima = models.IntegerField(verbose_name='Edad inicial')
+    edad_maxima = models.IntegerField(verbose_name='Edad final')
     objetivo = models.TextField()
     tipo = models.CharField(choices=choices,max_length=3)
 
@@ -83,7 +84,7 @@ class ConfiguracionElementosClave(models.Model):
 class Club(models.Model):
     nombre = models.CharField(max_length=100)
     ninos_cuenta = models.IntegerField(verbose_name="Total de niños")
-    ninos = models.ManyToManyField('niños.Niño',verbose_name="Niños")
+    ninos = models.ManyToManyField('ninos.Nino',verbose_name="Niños")
 
     class Meta:
         verbose_name_plural = "Clubes"

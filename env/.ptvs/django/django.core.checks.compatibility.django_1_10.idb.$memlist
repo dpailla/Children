@@ -1,6 +1,0 @@
-global_settings
-register
-Warning
-check_duplicate_middleware_settings
-Tags
-settings

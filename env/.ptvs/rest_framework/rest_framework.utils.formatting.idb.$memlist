@@ -1,9 +1,0 @@
-camelcase_to_spaces
-force_text
-apply_markdown
-markup_description
-dedent
-escape
-mark_safe
-re
-remove_trailing_string

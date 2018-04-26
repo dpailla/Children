@@ -1,8 +1,0 @@
-modules
-six
-DefaultIndexDashboard
-get_admin_site_name
-Dashboard
-_
-reverse
-forms

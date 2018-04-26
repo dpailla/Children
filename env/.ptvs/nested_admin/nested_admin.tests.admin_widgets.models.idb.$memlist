@@ -1,0 +1,12 @@
+CASCADE
+python_2_unicode_compatible
+TestAdminWidgetsRelated1
+TestAdminWidgetsC0
+TestAdminWidgetsRelated2
+TestAdminWidgetsB
+TestAdminWidgetsA
+models
+ForeignKey
+TestAdminWidgetsRoot
+TestAdminWidgetsC1
+TestAdminWidgetsM2M

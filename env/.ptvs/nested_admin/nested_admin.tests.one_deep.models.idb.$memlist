@@ -1,0 +1,14 @@
+CASCADE
+NestedTabularChild
+python_2_unicode_compatible
+models
+ChildAbstract
+NestedTabularRoot
+PlainTabularRoot
+NestedStackedRoot
+RootAbstract
+PlainTabularChild
+ForeignKey
+PlainStackedChild
+PlainStackedRoot
+NestedStackedChild

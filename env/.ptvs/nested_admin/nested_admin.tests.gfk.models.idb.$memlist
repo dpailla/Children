@@ -1,0 +1,10 @@
+CASCADE
+python_2_unicode_compatible
+models
+GFKRoot
+ContentType
+GenericRelation
+GFKB
+GFKA
+GenericForeignKey
+ForeignKey

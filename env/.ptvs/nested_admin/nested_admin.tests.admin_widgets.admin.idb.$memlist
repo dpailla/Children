@@ -1,0 +1,16 @@
+TestAdminWidgetsRootAdmin
+NestedModelAdmin
+TestAdminWidgetsC1
+NestedStackedInline
+TestAdminWidgetsC0Inline
+TestAdminWidgetsC1Inline
+TestAdminWidgetsBInline
+TestAdminWidgetsRelated2
+TestAdminWidgetsC0
+TestAdminWidgetsAInline
+TestAdminWidgetsA
+TestAdminWidgetsM2M
+TestAdminWidgetsRelated1
+TestAdminWidgetsRoot
+admin
+TestAdminWidgetsB

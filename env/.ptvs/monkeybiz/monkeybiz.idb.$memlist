@@ -1,0 +1,9 @@
+six
+pkg_resources
+unpatch
+inspect
+ModuleType
+patch
+functools
+filter
+__version__

@@ -1,0 +1,13 @@
+xpath_item
+is_sequence
+python_2_unicode_compatible
+is_integer
+Size
+xpath_cls
+Rect
+collections
+six
+ensure_element_is_in_view
+ElementRect
+Position
+is_str

@@ -1,0 +1,3 @@
+C:\Users\wilme\Desktop\Children\obj\Release\Children.pyproj.CoreCompileInputs.cache
+C:\Users\wilme\Desktop\Children\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\wilme\Desktop\Children\bin\wfastcgi.py
